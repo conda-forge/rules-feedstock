@@ -1,5 +1,5 @@
 {% set name = "rules" %}
-{% set version = "3.3" %}
+{% set version = "3.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/rules-{{ version }}.tar.gz
-  sha256: bf7bea8b724b73c36a622714c1b3557620c187a2ee05321a2ac8ab7472dc4464
+  sha256: c4702c1d60ca43e97d4dfced31e98274c652dea3c461105d8df6186d663e3212
 
 build:
   noarch: python
